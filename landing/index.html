@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Педагогика будущего — образовательное мероприятие</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <aside class="rail" aria-hidden="true">
+      <div class="rail__cap">
+        <svg viewBox="0 0 120 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10 48 L60 18 L110 48 L60 78 Z" fill="#fff"/>
+          <rect x="52" y="72" width="16" height="10" fill="#fff"/>
+          <rect x="28" y="88" width="14" height="14" fill="#fff" opacity=".95"/>
+          <rect x="48" y="92" width="12" height="12" fill="#fff" opacity=".8"/>
+          <rect x="68" y="86" width="16" height="16" fill="#fff"/>
+          <rect x="40" y="110" width="10" height="10" fill="#fff" opacity=".7"/>
+          <rect x="58" y="114" width="14" height="14" fill="#fff" opacity=".9"/>
+          <rect x="80" y="108" width="10" height="10" fill="#fff" opacity=".65"/>
+        </svg>
+      </div>
+    </aside>
+
+    <div class="main">
+      <header class="top">
+        <div class="brand-row">
+          <span class="partners">
+            <strong>МАШУК</strong> ЦЕНТР ЗНАНИЙ
+            <span class="dot"></span>
+            росмолодёжь
+            <span class="dot"></span>
+            знание
+          </span>
+          <span class="dates">11–12 июля 2026</span>
+        </div>
+      </header>
+
+      <section class="hero">
+        <div class="hero__label">Образовательное мероприятие</div>
+        <div class="hero__mark" aria-hidden="true">
+          <svg viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 48 L36 20 L60 48 L36 58 Z" stroke="#3e529b" stroke-width="3.5" fill="none"/>
+            <path d="M36 20 L36 58" stroke="#3e529b" stroke-width="3.5"/>
+            <rect x="18" y="42" width="6" height="6" fill="#3e529b"/>
+            <rect x="48" y="38" width="6" height="6" fill="#3e529b"/>
+            <rect x="32" y="34" width="5" height="5" fill="#3e529b"/>
+          </svg>
+        </div>
+        <h1 class="hero__title">Педагогика будущего</h1>
+        <p class="hero__lead">Внедрение современных технологий в образовательный процесс</p>
+        <p class="hero__place">Центр знаний «Машук»</p>
+        <a class="btn btn--primary" href="#lectures">К лекциям</a>
+      </section>
+
+      <section class="about" id="about">
+        <h2>О программе</h2>
+        <p>
+          Мини-проект по итогам образовательного мероприятия: четыре лекции
+          с презентациями, конспектами и диагностикой для закрепления материала.
+        </p>
+        <ul class="about__meta">
+          <li><span>Формат</span> 4 лекции · презентация · конспект · диагностика</li>
+          <li><span>Открытие</span> Манаева Лора Николаевна, председатель СКО Профсоюза</li>
+        </ul>
+      </section>
+
+      <section class="lectures" id="lectures">
+        <div class="section-head">
+          <h2>Лекции</h2>
+          <p>Лекция 01 готова: конспект и самодиагностика «Паутина». Презентация и материалы остальных лекций — по мере подготовки.</p>
+        </div>
+
+        <article class="lecture lecture--ready" id="lecture-1">
+          <div class="lecture__num">01</div>
+          <div class="lecture__body">
+            <div class="lecture__meta">
+              <time>11 июля · 11:30–12:45</time>
+              <span class="tag">готово</span>
+            </div>
+            <h3>Будущее образования: как работает современная цифровая среда</h3>
+            <p class="speaker">
+              <strong>Четверов Алексей Владимирович</strong>
+              <span>заместитель начальника Управления контроля качества и развития содержания образования Департамента образования города Москвы</span>
+            </p>
+            <div class="lecture__actions">
+              <a class="action" href="#lecture-1" aria-disabled="true">Презентация</a>
+              <a class="action" href="lecture-1-notes.html">Конспект</a>
+              <a class="action action--accent" href="lecture-1-diagnosis.html">Диагностика</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="lecture" id="lecture-2">
+          <div class="lecture__num">02</div>
+          <div class="lecture__body">
+            <div class="lecture__meta">
+              <time>11 июля · 14:30–15:45</time>
+            </div>
+            <h3>Как искусственный интеллект влияет на образование: возможности и вызовы</h3>
+            <p class="speaker">
+              <strong>Левин Роман Сергеевич</strong>
+              <span>академический директор Яндекс Учебника</span>
+            </p>
+            <div class="lecture__actions">
+              <a class="action" href="#lecture-2" aria-disabled="true">Презентация</a>
+              <a class="action" href="#lecture-2" aria-disabled="true">Конспект</a>
+              <a class="action action--accent" href="#lecture-2" aria-disabled="true">Диагностика</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="lecture" id="lecture-3">
+          <div class="lecture__num">03</div>
+          <div class="lecture__body">
+            <div class="lecture__meta">
+              <time>11 июля · 16:00–17:15</time>
+            </div>
+            <h3>Когнитивное восприятие информации в цифровой образовательной среде</h3>
+            <p class="speaker">
+              <strong>Миронова Виктория Вячеславовна</strong>
+              <span>заместитель директора Цифровой школы Московского городского университета</span>
+            </p>
+            <div class="lecture__actions">
+              <a class="action" href="#lecture-3" aria-disabled="true">Презентация</a>
+              <a class="action" href="#lecture-3" aria-disabled="true">Конспект</a>
+              <a class="action action--accent" href="#lecture-3" aria-disabled="true">Диагностика</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="lecture" id="lecture-4">
+          <div class="lecture__num">04</div>
+          <div class="lecture__body">
+            <div class="lecture__meta">
+              <time>12 июля · 09:30–10:45</time>
+            </div>
+            <h3>Образование сегодня сквозь призму глобальных процессов</h3>
+            <p class="speaker">
+              <strong>Зуев Пётр Юрьевич</strong>
+              <span>руководитель управления цифрового обучения Центра знаний «Машук»</span>
+            </p>
+            <div class="lecture__actions">
+              <a class="action" href="#lecture-4" aria-disabled="true">Презентация</a>
+              <a class="action" href="#lecture-4" aria-disabled="true">Конспект</a>
+              <a class="action action--accent" href="#lecture-4" aria-disabled="true">Диагностика</a>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <footer class="footer">
+        <div class="footer__pattern" aria-hidden="true"></div>
+        <p>Центр знаний «Машук» · Педагогика будущего · 2026</p>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
