@@ -18,8 +18,8 @@ jobs:
           GITVERSE_TOKEN: ${{ secrets.GITVERSE_TOKEN }}
         run: |
           if [ -z "$GITVERSE_TOKEN" ]; then
-            echo "GITVERSE_TOKEN is not configured. Add it in GitHub → Settings → Secrets."
-            exit 1
+            echo "GITVERSE_TOKEN is not configured. Skipping mirror to GitVerse."
+            exit 0
           fi
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
